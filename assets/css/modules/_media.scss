@@ -1,0 +1,214 @@
+@include media-breakpoint-up(xs) {
+    //480
+
+}
+
+@include media-breakpoint-up(sm) {
+    //576
+
+}
+
+@include media-breakpoint-up(md) {
+    //768
+
+}
+
+@include media-breakpoint-up(lg) {
+    //992
+
+}
+
+@include media-breakpoint-up(xl) {
+    //1200
+
+}
+
+@include media-breakpoint-up(xxl) {
+    //1400
+
+}
+
+/* NON Mobile ----------------- */
+
+@include media-breakpoint-down(xxl) {
+    //1399.98
+
+}
+
+@include media-breakpoint-down(xl) {
+    //1199.98
+
+}
+
+@include media-breakpoint-down(lg) {
+    //991.98
+
+}
+
+@include media-breakpoint-down(md) {
+    //767.98
+
+}
+
+@include media-breakpoint-down(sm) {
+    //575.98
+
+}
+
+@include media-breakpoint-down(xs) {
+    //479.98
+
+}
+
+
+
+
+
+
+
+
+
+@media all and (max-width:575px) and (min-width:320px) {
+    .tutorsite-hero-section .hero-sec-container-wrapper .content-wrapper h1{
+        font-size: 30px!important;
+    }
+    .tutorsite-hero-section .hero-sec-container-wrapper .content-wrapper .buttons-wrapper .hire-tutor-btn{
+        width: 100%!important;
+        display: block!important;
+        text-align: center!important;
+        margin-bottom: 10px!important;
+    }
+    .tutorsite-hero-section .hero-sec-container-wrapper .content-wrapper .buttons-wrapper{
+        display: block!important;
+    }
+    .request-tutor-section .request-tutor-inner-parent .request-listing-wrapper .request-listing-content-col-wrapper h3{
+        font-size: 26px!important;
+    }
+    .our-services-section .our-services-inner-parent .books-services-listing-wrapper .books-area-wrapper .align > li{
+        min-height: fit-content!important;
+        margin: 0 0 50px 0!important;
+    }
+    .navbar-collapse,.navbar-nav{
+        padding: 0!important;
+    }
+    .site-nav{
+        padding-bottom: 7px!important;
+        background-color: white!important;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        color: black!important;
+    }
+    .navbar-brand img{
+        height: 60px!important;
+    }
+    
+    .nav-order-now-btn-area{
+        margin-bottom: 20px!important;
+    }
+.navbar-brand img{
+    width: auto!important;
+    height: 30px!important;
+}
+}
+
+@media all and (max-width:767px) and (min-width:576px) {
+    
+.navbar-brand img{
+    width: auto!important;
+    height: 30px!important;
+}
+    .navbar-collapse,.navbar-nav{
+        padding: 0!important;
+    }
+    .site-nav{
+        padding-bottom: 7px!important;
+        background-color: white!important;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        color: black!important;
+    }
+    .navbar-brand img{
+        height: 60px!important;
+    }
+    .nav-order-now-btn-area{
+        margin-top: 20px!important;
+    }
+    .nav-order-now-btn-area{
+        margin-bottom: 20px!important;
+    }
+}
+
+
+@media all and (max-width:991px) and (min-width:768px) {
+    
+.navbar-brand img{
+    width: auto!important;
+    height: 30px!important;
+}
+    
+    .nav-order-now-btn-area{
+        margin-bottom: 20px!important;
+    }
+    .navbar-collapse,.navbar-nav{
+        padding: 0!important;
+    }
+    .site-nav{
+        padding-bottom: 7px!important;
+        background-color: white!important;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        color: black!important;
+    }
+    .navbar-brand img{
+        height: 60px!important;
+    }
+    .nav-order-now-btn-area{
+        margin-top: 20px!important;
+    }
+}
+
+@media all and (max-width:1199px) and (min-width:992px) {
+  
+.navbar-brand img{
+    width: auto!important;
+    height: 20px!important;
+}
+}
+
+@media all and (max-width:2000px) and (min-width:992px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// specific media query for slider
+
+
+@media all and (max-width:1100px) and (min-width:768px) {}
